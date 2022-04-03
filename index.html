@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@YourFatGuy">
+    <meta name="twitter:creator" content="@YourFatGuy">
+    <meta name="twitter:title" content="TeKeya Frame Studio">
+    <meta name="twitter:description" content="Frame Generator Project">
+    <meta name="twitter:image" content="#">
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>TeKeya Frame Studio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="static/style.css">
+
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<body>
+    <!-- Image and text -->
+    <nav class="navbar navbar-dark" style="background-color: #F35652;">
+        <a class="navbar-brand mx-auto my-auto" href="https://github.com/fadynabil10/TeKeya-Frame-Studio">
+            <h1 class="p-2 text-wrap title font-weight-bold">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                TeKeya Frame Studio</h1>
+
+            <a class="github-button" href="https://github.com/fadynabil10/TeKeya-Frame-Studio"
+                data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star"
+                data-icon="octicon" data-size="large"
+                aria-label="Star fadynabil10/TeKeya-Frame-Studio">Star</a>&nbsp;
+
+            <a class="github-button" href="https://github.com/fadynabil10"
+                data-color-scheme="no-preference: light; light: light; dark: dark;" data-size="large"
+                aria-label="Follow @fadynabil10 on GitHub"></a>&nbsp;
+        </a>
+    </nav>
+    <!-- Button section starts-->
+    <div style="width: 400px" class="container alert text-center my-3 alert-primary" role="alert">
+        <i class="fas fa-exclamation-triangle"></i>&nbsp;
+        View the frames below for reference
+    </div>
+    <div class="container my-4  border  rounded p-4" style="border-color:grey;" id="chooseOption">
+        <p class="text-center"><strong>Choose Your frame Type</strong></p>
+        <div class="text-center">
+            <button style="background-color:#acdfe1;" type="button" class="btn my-3 btn-style font-weight-bold mx-auto"
+                id="member" value="1" name="choose">حملة تكية ضد هدر الطعام</button> &nbsp;&nbsp;&nbsp;
+            <!-- <button style="background-color:#fcc5c6;"
+                type="button" class="btn my-3 btn-style font-weight-bold mx-auto" id="champion" value="2"
+                name="choose">Champion</button> &nbsp;&nbsp;&nbsp;
+            <button style="background-color:#ffde59;"
+                type="button" class="btn my-3 btn-style font-weight-bold mx-auto" id="winner" value="3"
+                name="choose">Winners</button> &nbsp;&nbsp;&nbsp;
+            <button style="background-color:#efba99;"
+                type="button" class="btn my-3 btn-style font-weight-bold mx-auto" id="tejas" value="3"
+                name="choose">Tejas</button> &nbsp;&nbsp;&nbsp;
+            <button style="background-color:#f6a0b5; "
+                type="button" class="btn my-3 btn-style font-weight-bold mx-auto" id="sophists" value="3"
+                name="choose">Sophists</button> &nbsp;&nbsp;&nbsp; -->
+        </div>
+    </div>
+    <div class="container my-4 border rounded p-2">
+        <a class="p-3"><img style="height: 300px;" src="frames/1.png" alt="Member-Badge" border="0"></a>
+        <!-- <a class="p-3" target="_blank" href="https://i.ibb.co/BKbDr95/Champion-Badge.png"><img style="height: 300px;"
+                src="https://i.ibb.co/BKbDr95/Champion-Badge.png" alt="Champion-Badge" border="0"></a>
+        <a class="p-3" target="_blank" href="https://i.ibb.co/qJhwsNv/Winner-Badge.png"><img style="height: 300px;"
+                src="https://i.ibb.co/qJhwsNv/Winner-Badge.png" alt="Winner-Badge" border="0"></a>
+        <a class="p-3" target="_blank" href="https://i.ibb.co/DfYdTmw/Tejas-Badge.png"><img style="height: 300px;"
+                src="https://i.ibb.co/DfYdTmw/Tejas-Badge.png" alt="Tejas-Badge" border="0"></a>
+        <a class="p-3" target="_blank" href="https://i.ibb.co/Qr6tTgg/Sophists-Badge.png"><img style="height: 300px;"
+                src="https://i.ibb.co/Qr6tTgg/Sophists-Badge.png" alt="Sophists-Badge" border="0"></a> -->
+
+
+
+    </div>
+
+    <!-- button section ends -->
+
+    <div id="specific" class="container my-4  border  rounded p-4" style="border-color:grey;" id="showHeading">
+        <strong>
+            <p class="text-center font-weight-bolder" id="sectionHeading"></p>
+        </strong>
+    </div>
+
+    <div id="badge-container" class="container my-4">
+        <div class="row card shadow-lg rounded p-4">
+            <div class="col-lg-12 d-flex justify-content-center">
+                <form action="">
+                    <p>Choose Image that describes you perfectly!</p>
+                    <input type="file" id="file" accept="image/*" onchange="loadImage(event)">
+                </form>
+            </div>
+            <div class="alert text-center my-3 alert-info" role="alert">
+                <i class="fas fa-exclamation-triangle"></i>&nbsp;
+                If you face any problems - Refresh the page or for Best view Open it on Desktop or in Desktop mode in
+                Mobile Browsers.
+            </div>
+        </div>
+        <div class="row d-flex justify-content-around">
+            <div class="col-md-4 d-flex justify-content-around">
+                <button type="submit" id="preview"
+                    class="btn my-3 btn-primary font-weight-bold mx-auto">Preview</button>
+            </div>
+            <!-- <div class="col-md-4 d-flex justify-content-around">
+                <span class="badge badge-warning my-auto"><h5 class="my-auto">Mentor Badge</h5></span>
+            </div> -->
+            <div class="col-md-4 d-flex justify-content-center">
+                <button id="download" class="btn my-3 btn-success font-weight-bold mx-auto">Download</button>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="text-center d-flex justify-content-center mx-auto my-4">
+                <canvas class="w-100 d-flex justify-content-center" id="result">
+                    <img class="frames" src="frames/1.png" id="badgeDesign1" alt="Badge">
+                    <!-- <img class="frames" src="frames/Champion.png"
+                        id="badgeDesign2" alt="Badge">
+                    <img class="frames" src="frames/Winner.png"
+                        id="badgeDesign3" alt="Badge">
+                    <img class="frames" src="frames/Tejas.png"
+                        id="badgeDesign4" alt="Badge">
+                    <img class="frames" src="frames/Sophists.png"
+                        id="badgeDesign5" alt="Badge"> -->
+                    <img crossorigin="anonymous" style="width: 440px; height: 440px; z-index: -1;" src=""
+                        alt="Your Image" id="imgDisplayed" class="mx-5 my-4 position-absolute">
+                </canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="static/app.js"></script>
+</body>
+
+</html>
